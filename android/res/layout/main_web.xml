@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+            <com.mwiacek.polskie.przepisy.ScrollerWebViewMain
+                android:id="@+id/webView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/spinner2" />
+
+    <com.mwiacek.polskie.przepisy.ScrollerWebViewMovable
+        android:id="@+id/view2"
+        android:layout_width="68px"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/webView2"
+        android:layout_alignTop="@+id/webView2" />
+
+</RelativeLayout>

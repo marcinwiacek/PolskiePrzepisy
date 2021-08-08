@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Polskie przepisy</string>
+    <string-array name="pliki">
+        <item>Ust.o kier.poj.</item>
+        <item>Dz.U.2011,Nr 30,poz.151</item>
+        <item>Dz.U.2011,Nr 92,poz.530</item>
+        <item>Dz.U.2012,poz.113</item>
+    </string-array>
+</resources>
